@@ -1,0 +1,74 @@
+[
+    {
+      "ID": 1,
+      "productName": "Nike Sweatshirt",
+      "price": 86.93,
+      "imgRoute": "../image/product_img1.png"
+    },
+    {
+        "ID": 2,
+        "productName": "Nike Sweatshirt",
+        "price": 25.00,
+        "imgRoute": "../image/product_img2.png"
+    },
+    {
+        "ID": 3,
+        "productName": "Puma T-Shirt",
+        "price": 25.00,
+        "imgRoute": "../image/product_img3.png"
+    },
+    {
+        "ID": 4,
+        "productName": "Nike Sweatshirt",
+        "price": 25.00,
+        "imgRoute": "../image/product_img4.png"
+    },
+    {
+        "ID": 5,
+        "productName": "Top Adidas W Snake Pack",
+        "price": 25.00,
+        "imgRoute": "../image/product_img5.png"
+    },
+    {
+        "ID": 6,
+        "productName": "Adidas T-shirt Dod Tee",
+        "price": 25.00,
+        "imgRoute": "../image/product_img6.png"
+    },
+    {
+        "ID": 7,
+        "productName": "Nike T-shirt HBR Tee",
+        "price": 25.00,
+        "imgRoute": "../image/product_img7.png"
+    },
+    {
+        "ID": 8,
+        "productName": "Vans Sweatshirt",
+        "price": 25.00,
+        "imgRoute": "../image/product_img8.png"
+    },
+    {
+        "ID": 9,
+        "productName": "Tennis Nike W Air Force",
+        "price": 25.00,
+        "imgRoute": "../image/product_img9.png"
+    },
+    {
+        "ID": 10,
+        "productName": "Tennis Nike W Blazer Low",
+        "price": 25.00,
+        "imgRoute": "../image/product_img10.png"
+    },
+    {
+        "ID": 11,
+        "productName": "Tennis Nike Air Max Infinity 2",
+        "price": 25.00,
+        "imgRoute": "../image/product_img11.png"
+    },
+    {
+        "ID": 12,
+        "productName": "Tennis Nike Air Force 1 07",
+        "price": 25.00,
+        "imgRoute": "../image/product_img12.png"
+    }
+  ]

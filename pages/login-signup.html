@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login | OMG - Shoes | Sign up</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!------------------------------ HEADER ------------------------------>
+
+    <header class="header">
+            
+        <!------------------------------ NAV ------------------------------>
+
+        <div class="departments">
+            <a href="../index.html">W O M E N' S</a>
+            <a href="../index.html">M E N' S</a>
+            <a href="../index.html">K I D S</a>
+        </div>
+        
+        <div class="nav">
+            <a href="../index.html" class="logo"> <img class="sneaker-logo" src="../image/logo.png" alt="sneaker icon"> O M G - S H O E S </a>
+
+            <nav class="navbar">
+                    <a href="#">SNEAKERS</a>
+                    <a href="#">CLOTHES</a>
+                    <a href="#">ACCESSORIES</a>
+                    <a href="#">SNEAKER CARE</a>
+                    <a href="#">BRANDS</a>
+            </nav>
+        </div>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="./pages/login-signup.html" class="fas fa-user"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <section class="login-styles">
+        <div class="container">
+            <form class="form" id="login">
+                <h1 class="form__title">Login</h1>
+                <div class="form__message form__message--error"></div>
+                <div class="form__input-group">
+                    <input type="text" class="form__input" autofocus placeholder="Username or email">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <div class="form__input-group">
+                    <input type="password" class="form__input" autofocus placeholder="Password">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <button class="form__button" type="submit">Continue</button>
+                <p class="form__text">
+                    <a href="#" class="form__link">Forgot your password?</a>
+                </p>
+                <p class="form__text">
+                    <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+                </p>
+            </form>
+            <form class="form form--hidden" id="createAccount">
+                <h1 class="form__title">Create Account</h1>
+                <div class="form__message form__message--error"></div>
+                <div class="form__input-group">
+                    <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <div class="form__input-group">
+                    <input type="text" class="form__input" autofocus placeholder="Email Address">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <div class="form__input-group">
+                    <input type="password" class="form__input" autofocus placeholder="Password">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <div class="form__input-group">
+                    <input type="password" class="form__input" autofocus placeholder="Confirm password">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <button class="form__button" type="submit">Continue</button>
+                <p class="form__text">
+                    <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nesciunt!</p>
+            </div>
+    
+            <div class="box">
+                <h3>category</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Women's </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Men's </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Kids </a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Sneakers </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Backpacks </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Caps </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Socks </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Sneaker Care </a>
+            </div>
+    
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> My order </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> My account </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> My listing </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Sell now </a>
+            </div>
+    
+        </div>
+    
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-instagram"></a>
+        </div>
+    
+        <div class="credit"> &copy; copyright @ 2022 by <span>Godtars Dev</span> </div>
+        
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
